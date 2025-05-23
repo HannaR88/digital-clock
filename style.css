@@ -26,9 +26,8 @@ body {
   letter-spacing: 2px;
 }
 
-/* pulsating */
-@keyframes glow {
-  0% {box-shadow: 0 0 20px #00ffff;}
-  50% {box-shadow: 0 0 40px #00ffff;}
-  100% {box-shadow: 0 0 20px #00ffff;}
+/* glowing effect*/
+  #clock {
+  box-shadow: 0 0 20px #00ffff;
 }
+  
